@@ -1,0 +1,401 @@
+
+@import "src/scss/vendor/custom.scss";
+
+
+
+
+.navbar{
+    font-family: $sans-en;
+    font-weight: $font-semi-bold;
+    padding: 1% 4%;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+.nav-item{
+    padding-left: 40px;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-family: $sans-en;
+}
+
+//about starts here
+
+.about{
+    font-family: $sans-en;
+    font-weight: $font-semi-bold;
+    margin-top: 96px;
+    margin-bottom: 96px;
+
+}
+
+.me{
+    font-size: 24px;
+    color: $gray-900;
+}
+.intro{
+    font-size: 32px;
+    
+    & span{
+        color: $primary;
+    }
+}
+
+
+// work-01 start
+
+.work-01{
+    font-family: $sans-cn;
+    line-height: 1;
+}
+
+.work-img{
+   overflow: hidden;
+   padding: 0;
+   position: relative;
+}
+
+.work-01-img{
+    width: 100%;
+}
+
+.work-text{
+    // width: 100%;
+    // max-width: 417px;
+    max-width: 30%;
+    background-color: $gray-100;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding: 32px 24px;
+    font-size: 16px;
+    position: absolute;
+    right: 24vw;
+}
+
+.work-type{
+    font-family: $sans-en;
+    font-weight: $font-light;
+    font-size: 14px;
+
+}
+
+.work-title{
+    font-size: 18px;
+    font-weight: $font-semi-bold;
+    
+    margin-bottom: 8px;
+    & span{
+        font-family: $sans-en;  
+    }   
+}
+
+.work-detail{
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.work-btn{
+    font-family: $sans-en;
+    font-weight: $font-medium;
+    padding: .7rem 1.4rem;
+    background-color: $gray-900;
+    border: none;
+    
+}
+
+//////////////////////////////////////////////////////////////////////
+////////////////////// work page starts here//////////////////////////
+
+.hero{
+    margin-top: 64px ;
+    padding: 0;
+}
+
+//define typography & color
+
+li{
+    color: $blue-900;
+    padding-bottom: 4px;
+    font-size: 1.125rem;
+}
+
+small, h3, p.work-1, h4, h2, li{
+    font-family: $sans-cn;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: $font-medium;
+    line-height: 3rem;
+    color: $blue-600;
+}
+
+small{
+    display: inline-block;
+    font-weight: $font-light;
+    line-height: 1.6;
+    padding-top: 8px;
+}
+
+h3{
+    color: $blue-600;
+    font-size: 1.5rem;
+    font-weight: $font-regular;
+    padding-bottom: 1rem;
+}
+
+p.work-1{
+    font-size: 1.125rem;
+    color: $blue-900;
+}
+
+//bg color
+
+.work-1-light{
+    background-color: $blue-100;
+}
+
+//spacing
+
+.work-section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.section-title{
+    padding-bottom: 32px;
+}
+
+
+
+
+///////////////////////////////////////
+.p-body{
+    font-weight: $font-light;
+    padding-right: 40px;
+}
+
+.p-title{
+    font-weight: $font-regular;
+    padding-right: 8px;
+}
+
+// .overview{
+
+h4{
+    font-size: 20px;
+    font-weight: $font-regular;
+    margin-bottom: 4px;
+    color: $blue-700;
+    
+}
+
+.work-1-dark, p.work-1-dark{
+    color: white;
+    background-color: $blue-600;
+}
+
+//focus section
+
+.focus-goal{
+    padding-top: 34px;
+}
+
+.focus-title{
+    opacity: .85;
+    color: white;
+}
+
+//intro section starts
+
+.intro-img{
+    padding-bottom: 24px;
+}
+
+//problem section starts here
+
+.early-img{
+    padding-bottom: 8px;
+}
+
+.early-insight{
+    padding-bottom: 32px;
+}
+
+.reframe-img{
+    width: 65%;
+    padding-top: 16px;
+}
+
+//research section starts here
+
+.interview{
+    padding-bottom: 16px;
+}
+
+//ideation section starts here
+
+.low-wire div:first-child{
+    padding-bottom: 24px;
+}
+
+.low-wire{
+    padding-bottom: 64px;
+}
+
+//revised section starts here
+
+.revised-principle{
+    padding-bottom: 32px;
+}
+
+.img-principle{
+    width: 50%;
+}
+
+
+.img-revised-group{
+    padding-top: 16px;
+}
+
+//solution-1 starts here
+
+.solution-1-group{
+    padding-bottom: 32px;
+}
+
+//solution-2 starts
+.video-group {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-text{
+      padding-top: 16px;
+  }
+
+//newsletter section
+
+.newsletter{
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.newsletter h3{
+    line-height: 1.4;
+}
+
+//outcome section
+
+.outcome-feedback{
+    padding-bottom: 24px;
+}
+
+.p-subtitle{
+    padding-bottom: 8px;
+}
+
+.learnings-principle{
+    padding-bottom: 16px;
+}
+
+// responsive
+
+@include media-breakpoint-down(lg) { 
+    .reframe-img{
+        width: 100%;
+    } 
+ }
+
+
+@include media-breakpoint-down(md) {
+    //home
+    .work-text{
+        position: relative;
+        right: 0;
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .about{
+        margin-bottom: 48px;
+    }
+    .work-01{
+        margin-bottom: 64px;
+    }
+
+      
+
+    //work-1
+    .role{
+        flex-direction: column;
+    }
+    .p-title{
+        margin-bottom: 0;
+    }
+    .intro-solution-1,
+    .intro-solution-2,
+    .intro-solution-3{
+        padding-bottom: 24px;
+    }
+    .intro-img{
+        padding-bottom: 16px;
+    }
+    .persona-img{
+        padding-bottom: 16px;
+    }
+
+    .low-wire div:first-child{
+        padding-bottom: 32px;
+    }
+    small{
+        line-height:1.2 ;
+        font-size: 14px;
+    }
+    
+ }
+
+ @include media-breakpoint-down(sm) {
+    
+    .low-wire div:first-child{
+        padding-bottom: 0px;
+    }
+    .low-wire small{
+        padding-bottom: 16px;
+    }
+    .img-revised-p{
+        padding-bottom: 16px; 
+    }
+    .home-group{
+        order: 1;
+    }
+    .number{
+        padding-bottom: 8px;
+    }
+    .overview-detail{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+ }
+
+
+
+
+
+  
